@@ -1,7 +1,9 @@
 
 
-"""Assignment step 223: Write a script that creates a database and adds new data into that database. 
-That also reads through that list and finds only those files that end with .txt add those files to your db and print them out """
+"""Assignment step 223: Write a script that creates a database and adds 
+new data into that database. That also reads through that list and finds 
+only those files that end with .txt, adds those files to your db 
+and prints them out """
 
 import sqlite3 # import sqlite3 module 
 
