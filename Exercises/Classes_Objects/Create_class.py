@@ -38,7 +38,7 @@ updateUsername(michaelAccount, "Michael")
 
 
 # Create Class with Arguments - at the time the object is created this is called
-# This is called initialization and can easily be set up. It just requires 
+# this is called initialization and can easily be set up. It just requires 
 # utilizing a dunder method (__init__ ) to attach the arguments for creating 
 # the object to the attributes of that object.  
 
