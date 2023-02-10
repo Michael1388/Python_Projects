@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Welcome to home!</title>
+</head>
+<body>
+
+<h1>Welcome to my world, {{ user | title }}!</h1>
+<!-- title sets uppercase first letter"title"-->
+
+<ul>
+    {% for user in users %}
+    <li>{{user}}</li>
+    <!-- Just like regular html tags, most
+    DTL (Django Template Language) tags need to have a closing tag -->
+    {% endfor %}
+</ul>
+
+</body>
+
+</html>

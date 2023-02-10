@@ -1,0 +1,71 @@
+
+{% extends "base.html" %}
+
+{% block title %}Hello World{% endblock %}
+
+{% block header %}Hello World!{% endblock %}
+
+{% block content %}
+
+<!--
+{% for profile in profiles %}
+
+<p> {{ Profile }}</p>
+
+<ul>
+    <li>{{ Profile }}</li>
+</ul>
+
+{% endfor %}
+-->
+
+<!--
+{% for a_product in products %}
+<ul>
+       <li>{{ a_product }}</li>
+</ul>
+
+{% endfor %}
+-->
+
+<!--
+{% for product in products %}
+    <ul>
+        {% if product == "Apples" %}
+        <li>#{{ product }}</li>
+        {% else %}
+        <li>{{ product }}</li>
+        {% endif %}
+    </ul>
+{% endfor %}
+-->
+
+<!--
+{% for name in names %}
+    <ul>
+        {% if name == "Orwell" %}
+        <li>"Hello" {{ name }}</li>
+        {% else %}
+        <li>{{ name }}</li>
+        {% endif %}
+    </ul>
+{% endfor %}
+-->
+<!--
+{% for a in names %}
+    <ul>
+        <li>{{name}}</li>
+    </ul>
+{% endfor %}
+-->
+
+{% for profile in profiles %}
+
+<ul>
+    <li>{{ profile.first_name }}</li>
+</ul>
+
+{% endfor %}
+
+{% endblock %}
+
