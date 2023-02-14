@@ -2,7 +2,7 @@
 A repository of python projects created while at THE TECH ACADEMY
 Feel free to browse around.
 
-##Projects
+## Projects
 
 [ | ](https://github.com/Michael1388/HTML_CSS_projects/blob/main/COURSEWORK/BOOTSTRAP/Basic_HTML_Website/PROJECT/index.html)
 
