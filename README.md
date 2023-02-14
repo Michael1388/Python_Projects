@@ -14,9 +14,7 @@ SCENARIO: Once per day, any files in the Customer Source directory that are new 
 
 ## 
 
-[My Portfolio Website](http://michael-larocca.com/)
-
- http://michael-larocca.com/ 
+[My Portfolio Website](http://michael-larocca.com/) http://michael-larocca.com/ 
 
 Thanks for visiting and have a great day!!
 
