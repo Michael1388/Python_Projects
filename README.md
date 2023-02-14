@@ -8,16 +8,10 @@ Feel free to browse around.
 
 This project is a page designed using basic HTML and CSS to render a nice basic website with a contact form.
 
-[Movie Theater Site](https://github.com/Michael1388/HTML_CSS_projects/blob/main/COURSEWORK/BOOTSTRAP/Bootstrap4_project/academy_cinemas.html)
+[Django Checkboook Project](https://github.com/Michael1388/Python_Projects/tree/main/Django_Checkbook_Project)
+This project centered around creating the backend framework for a basic bank register, featuring account creatinn, deposits and withdrawals transactions and balance summary.
 
-This page was styled using Bootstrap and contains many bootstrap components including a navbar, jumbotron, form, cards, dropdowns and more.
-
-## To see the conclusion of this specific course
-
-NOTE: 
-
-
-You will be redirectd to the completed published live version of :
+## 
 
 [My Portfolio Website](http://michael-larocca.com/)
 
