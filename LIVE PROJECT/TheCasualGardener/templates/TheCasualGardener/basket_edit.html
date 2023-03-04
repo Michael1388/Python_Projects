@@ -1,0 +1,25 @@
+{% extends 'TheCasualGardener_base.html' %}
+
+{% block title %}Edit Basket{% endblock %}
+
+{% block header %}Edit Basket{% endblock %}
+
+{% block content %}
+
+
+<div class="admin_panel">
+    <form method="POST" action="" id="BasketForm">
+        <div class="frmObject_container">
+            {% csrf_token %}
+            {% load crispy_forms_tags %}
+            {{ form.as_p }} <!-- as paragraph p -->
+        </div>
+        <div class="frmBtn_container">
+        <button type="submit" class="btn btn-info" name="save_basket">Save Changes</button>
+        <a class="btn btn-secondary cancel-btn" href="{% url 'list_basket' %}" role="button">Cancel</a>
+        <a class="btn btn-danger cancel-btn" href="{% url 'basket_delete' entry.id %}" role="button">Delete Basket?</a>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

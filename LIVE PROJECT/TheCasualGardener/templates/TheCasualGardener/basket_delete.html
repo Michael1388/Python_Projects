@@ -1,0 +1,34 @@
+{% extends 'TheCasualGardener_base.html' %}
+
+{% block title %}Delete Basket{% endblock %}
+
+{% block header %}Delete Basket{% endblock %}
+
+{% block content %}
+
+
+<div class="delete_panel">
+  <div class="row">
+          <!-- blank column 1 -->
+    <div class="col-sm">
+    </div>
+          <!-- form column -->
+    <div class="col-sm">
+        <div class="delete-btn">
+            <form method="POST">
+                    <h3>Delete "{{ entry.first_name }}"?</h3> <br>
+                    {% csrf_token %}
+                     <div class="frmBtn_container">
+                         <button type="submit" class="btn btn-danger delete-btn">Delete?</button>
+                        <a class="btn btn-secondary cancel-btn" href="{% url 'basket_details' entry.id %}" role="button">Cancel</a>
+                     </div>
+            </form>
+        </div>
+    </div>
+          <!-- blank column 2 -->
+    <div class="col-sm">
+    </div>
+  </div>
+</div>
+
+{% endblock %}

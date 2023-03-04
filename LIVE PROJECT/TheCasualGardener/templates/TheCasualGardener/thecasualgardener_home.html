@@ -1,0 +1,38 @@
+{% extends "TheCasualGardener_base.html" %}
+
+{% block title %}The Casual Gardener{% endblock %}
+
+{% block header %}The Casual Gardener{% endblock %}
+
+{% block content %}
+
+<div class="home_container">
+  <div class="row">
+          <!-- blank column 1 -->
+    <div class="col-">
+    </div>
+          <!-- message column -->
+    <div class="col-md home-alert">
+        <div class="alert alert-success" role="alert">
+            <p class="main-content h4 text-center">Welcome to my garden!<br>
+            <br>    Fresh organically grown vegetable baskets prepared to order.
+            <br>
+            <br>    Delivered weekly, every two weeks, monthly or semi-annually.
+            <br>
+            <br>    Garden fresh, in season, to your door!
+            </p>
+        </div>
+        <div class="frmBtn_container">
+            <a class="btn btn-info" href="{% url 'create_Record' %}" role="button" >Create a Request</a>
+            <a class="btn btn-info" href="{% url 'list_basket' %}" role="button" >View your Basket</a>
+
+        </div>
+    </div>
+          <!-- blank column 2 -->
+    <div class="col-">
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

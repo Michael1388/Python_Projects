@@ -1,0 +1,54 @@
+{% extends "TheCasualGardener_base.html" %}
+
+{% block title %}Basket Details{% endblock %}
+
+{% block header %}Basket Details{% endblock %}
+
+{% block content %}
+
+<div class="container basket_details">
+  <div class="row">
+          <!-- blank column 1 -->
+    <div class="col-">
+    </div>
+          <!-- details column -->
+    <div class="table">
+        <h3>Your Basket Details</h3>
+            <p class="lead">
+                <div class="alert alert-primary" role="alert">
+                    <div class="container">
+                      <div class="row row-details">
+                        <div class="col">First Name:</div>
+                        <div class="col">Last Name:</div>
+                        <div class="col">Subscription:</div>
+                        <div class="col">Vegetable Type</div>
+                        <div class="w-100"></div>
+                          <br>
+                        <div class="col">{{ entry.first_name }}</div>
+                        <div class="col">{{ entry.last_name }}</div>
+                        <div class="col">{{ entry.subscription }}</div>
+                        <div class="col">{{ entry.vegetable }}</div>
+                      </div>
+                    </div>
+                </div>
+              <div class="alert alert-primary" role="alert">
+                   Comments: {{ entry.description }}
+                  <hr>
+                  <h9 class="reported_by">Entered by: {{ entry.first_name }}</h9>
+              </div>
+        <div class="frmBtn_container">
+            <a class="btn btn-info" href="{% url 'list_basket' %}" role="button">Return to Basket Items</a>
+            <a class="btn btn-info edit-btn" href="{% url 'basket_edit' entry.id %}" role="button">Edit Basket</a>
+
+            <a class="btn btn-danger cancel-btn" href="{% url 'basket_delete' entry.id %}" role="button">Delete Basket?</a>
+
+        </div>
+    </div>
+          <!-- blank column 2 -->
+    <div class="col-">
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

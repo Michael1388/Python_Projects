@@ -1,0 +1,30 @@
+{% extends "TheCasualGardener_base.html" %}
+
+{% block title %}Api{% endblock %}
+
+{% block header %}Stock Watch{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+          <!-- blank column 1 -->
+    <div class="col-">
+    </div>
+          <!-- api column -->
+    <div class="col-md">
+        <div class="api_panel">
+            <h3>Plant or Harvest?</h3>
+
+            <blockquote>Name: {{ api_name }} <br>Ticker: {{ api_info }} <br> Price: ${{ api_price }} <br> Change: {{ api_change }}</blockquote>
+            </div>
+            <br>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
