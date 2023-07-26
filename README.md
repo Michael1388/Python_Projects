@@ -1,4 +1,4 @@
-# Python_Projects
+#Python_Projects
 A repository of python projects created while at THE TECH ACADEMY
 Feel free to browse around.
 
@@ -19,3 +19,7 @@ This Django project centered around creating the backend framework for a basic b
 Thanks for visiting and have a great day!!
 
 #### Michael La Rocca
+
+# Python Internship Project
+## Django Web-Application
+
