@@ -16,6 +16,6 @@ This Django project centered around creating the backend framework for a basic b
 # Python Internship
 ## Django Web-Application
 [TheCasualGardener.com](https://github.com/Michael1388/Python_Projects/tree/main/TheCasualGardener)
-During a two-week internship with Prosper IT Consulting, I participated in the creation of a database-driven Django web application using Python. The internship gave me experience using the Agile/Scrum methodology and Azure DevOps. I was given a minimum of 4 stories to complete, and additional optional stories to complete over the course of a two-week sprint time permitting. I completed the first four and an additional four.
+During a two-week internship with Prosper IT Consulting, I participated in the creation of a database-driven Django web application using Python. The internship gave me experience using the Agile/Scrum methodology and Azure DevOps. I was given a minimum of 4 stories to complete, and additional optional stories to complete over the course of a two-week sprint time permitting. I completed the first four and an additional three including a RESTful API.
 
 
