@@ -1,0 +1,28 @@
+DO NOT RUN THIS CODE ITS AN INFINITE LOOP
+
+#If the iteration variable does not cause change you will wind up in an INFINITE LOOP - this is not good! 
+
+n = 5
+while n > 0 :           # This True statement will never change to False, therefore and Infinite Loop  
+    print('Lather')     # print(n) Used in previous code
+    print('Rinse') 
+                        # n = n - 1  THis code which we used in previous exercise to reduce 5 by -1 each time through the loop does not exist in this example
+    break               # You would use BREAK to get out of the loop by placing it in the "code box" before the next de-indent: Break skips out of the loop
+print('DRY off!')
+# print(n)      Used in previous code
+
+DO NOT RUN THIS CODE ITS AN INFINITE LOOP
+
+# CONTINUE Skips to the top of the loop
+
+while TRUE:           
+    line = input('> ')     
+    if line[0] == '#' :
+        continue            # Goes back to beginning of loop - while True: or in other words it goes to the next iteration, abandons the current and goes to the next
+    if line == 'done' :
+        break
+    print(line)
+print('Done') 
+
+## WHILE loops are kind of indefinite, you can construct them cleverly, they just go and go and go 
+# until some logic or condition becomes FLASE.
